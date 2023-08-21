@@ -1,0 +1,65 @@
+@media only screen and (min-width:960px) and (max-width:1024px) {
+   .col-left,.col-right {border-radius: 0 0 0 0;}
+   #blog-pager,.blog-pager,.post-body {padding: 50px;}
+   .search-wrap {padding: 25px 50px 25px;}
+   .social-buttons.responsive {display: block;margin-top: 25px;}
+   .col-middle {width: 60%;}
+   .col-right {width: 22%;}
+   .item-title {padding-left: 10px;}
+   .site-footer {border-radius: 0 0 0 0;}
+ }
+
+ @media only screen and (max-width:960px) {
+   #blog-pager,.blog-pager {padding: 25px 25px 45px;}
+   .label,.search-query,.form h2 {padding: 35px 25px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+   .content-wrapper {padding: 0 0;}
+   .post {margin-right: 0;}
+   .post-body {padding: 25px;}
+   .search-wrap,.form {padding: 25px 25px 25px;}
+   .col-left {display: none;width: 320px;max-width: 100%;border-radius: 0 0 0 0;}
+   .col-middle {width: 65%;}
+   .col-right {width: 35%;border-radius: 0 0 0 0;}
+   .ustAlan{display:block;}
+   .ustAlan .logo{text-align: center;margin-bottom: 20px;}
+   .ustAlan .ustMenu ul{justify-content: center;margin-bottom: 20px;}
+   .ustAlan .ustMenu ul li{height: 52px;padding: 15px 30px 0;}
+   .slm{display: table;text-align: center;margin: 0 auto 20px;}
+   #collapase{display:block;border-top: 1px solid var(--header-borderColor);background: var(--foot-bg);}
+   #collapase svg{left: calc(50% - 25px);background: transparent;border-top: none;}
+   .form h {margin: 30px 0 20px;}
+   .site-footer {border-radius: 0 0 0 0;}
+ }
+
+ @media only screen and (max-width:736px) {
+   .PopularPosts img {width: auto;}
+ }
+
+ @media only screen and (max-width:734px) {
+   
+   .label,.search-query,.form h2 {font-size: 18px;}
+   #footer .widget {width: calc(50% - 50px);margin: 0 25px 40px;}
+   #footer {text-align: left;}
+   .col-left {width: 100%}
+   .col-middle {width: 100%;}
+   .col-right {margin: auto;width: 100%;}
+   .follow-by-email-inner {max-width: 320px;margin: auto;}
+   .follow-by-email-address {width: auto;}
+   .follow-by-email-submit {font-size: 13px;width: auto;}
+   .site-footer {padding: 50px 0px;}
+   .col-main {display: inherit;}
+   .item-title {padding-left: 10px;}
+   #author-info p {padding-left: 0;}
+   .post-body .post-title a {font-size: 30px}
+ }
+
+ @media only screen and (max-width:480px) {
+   #footer .widget {width: calc(100% - 30px);margin: 0 15px 30px;}
+   #footer-menu ul li {display: block;border-bottom: 1px solid var(--header-borderColor);padding: 10px 5px;width: calc(100% - 40px);margin: 0 20px;}
+   #footer-menu ul li:last-child {border-bottom: none;}
+   .post-body .post-title a {font-size: 25px}
+ }
+
+ @media only screen and (max-width:320px) {
+   .follow-by-email-address {width: 180px;}
+   .showpage a,.showpageNum a,.showpagePoint {padding: 2px 10px;}
+ }
